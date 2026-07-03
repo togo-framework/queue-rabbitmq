@@ -1,0 +1,8 @@
+name: queue-rabbitmq
+description: Queue backend — togo.Queue over RabbitMQ (AMQP).
+priority: 91
+backend:
+  package: github.com/togo-framework/queue-rabbitmq
+migrations: []
+frontend: { dir: "" }
+commands: []
